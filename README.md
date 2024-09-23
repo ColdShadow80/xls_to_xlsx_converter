@@ -40,7 +40,7 @@ This Python Flask API allows you to upload `.xls` files and converts them to `.x
     python app.py
     ```
 
-The API will start on `http://localhost:5000`.
+The API will start on `http://localhost:5950`.
 
 ## Using with Power Automate
 
