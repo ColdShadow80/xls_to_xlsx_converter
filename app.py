@@ -1,6 +1,6 @@
+import os
 from flask import Flask, request, jsonify, send_file
 import pandas as pd
-import os
 
 app = Flask(__name__)
 
@@ -44,4 +44,6 @@ def convert_xls_to_xlsx():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5950)
+    # Listen on all interfaces within the Docker container
+    port = int(os.environ.get('PORT', 5950))
+    app.run(host='0.0.0.0', port=port)
