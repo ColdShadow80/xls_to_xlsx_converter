@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+uploaded_files/
+converted_files/
