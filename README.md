@@ -51,9 +51,9 @@ To integrate this API with Power Automate:
 4. The response will contain the `.xlsx` file, which you can use in subsequent Power Automate steps.
 
 ## Power Automate Integration Steps
-1. Set Up HTTP Request: In Power Automate, use the HTTP action to POST your .xls file to the /convert endpoint of your hosted API.
-2. Attach the File: Use the file data in the request body with the multipart/form-data format.
-3. Receive the Response: The response will be an .xlsx file, which you can save or process further within Power Automate.
+1. **Set Up HTTP Request:** In Power Automate, use the HTTP action to POST your .xls file to the /convert endpoint of your hosted API.
+2. **Attach the File:** Use the file data in the request body with the multipart/form-data format.
+3. **Receive the Response:** The response will be an .xlsx file, which you can save or process further within Power Automate.
 
 ## License
 
